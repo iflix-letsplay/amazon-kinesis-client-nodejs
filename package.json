@@ -1,7 +1,7 @@
 {
   "name": "@iflix/aws-kcl-3gb-heap",
   "description": "Kinesis Client Libray (KCL) in Node.js.",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "author": {
     "name": "Amazon Web Services",
     "url": "http://aws.amazon.com/"
