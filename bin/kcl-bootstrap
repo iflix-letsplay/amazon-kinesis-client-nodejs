@@ -101,7 +101,7 @@ function parseArguments() {
 function startKinesisClientLibraryApplication(options) {
   var classpath = getClasspath(options).join(getPathDelimiter());
   var java = options.java;
-  var args = ['-cp', classpath, MULTI_LANG_DAEMON_CLASS, options.properties];
+  var args = ['-cp', classpath, '-Xmx3g', MULTI_LANG_DAEMON_CLASS, options.properties];
   var cmd = java + ' ' + args.join(' ');
 
   console.log("==========================================================");
